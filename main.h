@@ -3,10 +3,12 @@
 #include<string>
 #include<cmath>
 
+#define pi 3.141593
 
-std::string check_triangle(double a, double b, double c){
-       // START YOUR CODE HERE
-    
-    // END YOUR CODE HERE
-    }
+double radius(double c){
+    return c / (2*pi);
+}
+double area(double rad){
+    return 2*pi*rad*rad;
+}
 #endif // MAIN_H
